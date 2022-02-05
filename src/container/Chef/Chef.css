@@ -1,0 +1,56 @@
+.app__chef{
+    background-color: var(--color-black);
+}
+
+.app__chef-h1{
+    font-family: var(--font-base);
+    color:var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 115px;
+    font-size: 64px;
+}
+
+.app__chef-text{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+.app__chef-img img{
+    width: 80%;
+}
+
+.app__chef-details-subheading{
+    width:100%;
+}
+.app__chef-details-subheading-name{
+    
+    font-family: Cormorant Upright;
+    font-size: 31px;
+    line-height: 130%;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.app__chef-details-subheading-founder{
+    width: 126px;
+    font-family: Open Sans;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+}
+.app__chef-details-signature{
+    width: 235px;
+    height: 83px;
+    margin: 2rem 0;
+}
+
+.app__chef-details-signature img{
+    width: 100%;
+}
