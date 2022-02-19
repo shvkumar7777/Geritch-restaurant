@@ -13,8 +13,10 @@ const Gallery = () => {
     const { current } = scrollRef;
 
     if (current === 'left') {
+      // console.log(current);
       current.scrollLeft -= 300;
-    } else {
+    }else{
+      console.log(current);
       current.scrollLeft += 300;
     }
   }
@@ -30,7 +32,7 @@ const Gallery = () => {
         <div className='app_gallery_images_container' ref={scrollRef}>
           {
             galleryImages.map((image, index) => (
-              <div className="app__gallery-images_card flex__center"> 
+              <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}> 
                 <img src={image} id={index} />
                 <BsInstagram className='gallery__image-icon'/>
               </div>
